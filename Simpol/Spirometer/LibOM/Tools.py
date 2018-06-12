@@ -53,11 +53,11 @@ class WatchTower:
 
 class Twitter:
 
-    Consumer_Key = "ciXEtj8xvEgcLPwBI9mP9Ajgy"  # API key
-    Consumer_Secret = "qfXrCVMeCIv1N8gE6ogpm2teM4DY3hOEIeMHLSvPNqXmiPNIQ2"  # API secret
+    Consumer_Key = ""  # API key
+    Consumer_Secret = ""  # API secret
 
-    Access_Token = "95098920-voyISmVRTqJaTl3o8nXc3WKFQUx5HZDhn434XEt4O"
-    Access_Token_Secret = "Lr1MMuCsEjMkESx9wI2MfPbc0osDhJzrcRzBSWJE1X3N2"
+    Access_Token = ""
+    Access_Token_Secret = ""
 
     url_api = "https://api.twitter.com/1.1/statuses/user_timeline.json?tweet_mode=extended"
     url_followers = "https://api.twitter.com/1.1/followers/list.json"
